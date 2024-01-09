@@ -1,0 +1,48 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+h2{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+ 
+input{
+  outline: none;
+  width: 130px;
+
+  padding: 0px 70px 0px 70px;
+}
+.click{
+  background-color: #888;
+  padding: 10px;
+  border-radius: 10px;
+}
+button {
+  border-radius: 10px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em; 
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  font-size: large;
+  margin: 6px;
+}
+button:hover {
+  background-color: #797979;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+
+
